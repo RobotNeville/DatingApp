@@ -2,6 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AccountService } from './_services/account.service';
 import { User } from './_models/user';
+import { ToastrModule } from 'ngx-toastr';
 
 @Component({
   selector: 'app-root',
